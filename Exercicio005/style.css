@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(imagem/tecido-a-pequena-sereia-ariel-baby-estampado-80-cm-x-40-cm-ariel-baby.jpg)#A6CFD5;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+}
+.container{
+    text-align: center;
+   te
+    width: 70%;
+    height: 600px;
+    margin: 5px auto;
+    margin: 12px 3px 9px;
+    padding: 20px;
+   
+    background: rgb(235, 214, 254);
+}

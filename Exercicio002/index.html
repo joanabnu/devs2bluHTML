@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crie um Formulário de curriculo</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" id="nome" required placeholder="Digite seu nome Completo">
+        <br>
+        <br>
+        <label for="CPF">CPF</label>
+        <input type="number" name="CPF" id="CPF" required placeholder="Digite seu CPF" maxlength="11">
+        <br>
+        <br>
+        <label for="RG">RG</label>
+        <input type="number" name="RG" id="RG"  placeholder="Digite seu RG" >
+        <br>
+        <br>
+        <label for="">Data</label>
+        <input type="date" name="datanascimeto">
+    </fieldset>
+    <fieldset>
+        <legend>Dados de contato</legend>
+        <label for="telefone">telefone</label>
+        <input type="number" name="telefone" id="telefone" placeholder="Digite seu telefone">
+        <br>
+        <br>
+        <label for="Celular">Celular</label>
+        <input type="number" name="celular" id="celular" required placeholder="Digite seu celular com DD">
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required placeholder="Digite seu E-mail">
+        <br>
+        <br>
+        <label for="Linkedin">Linkedin</label>
+        <input type="text" name="Linkedin" id="linkedin" placeholder="Digite  o link do seu Linkedin">
+        <br>
+        <br>
+        <label for="Instagram">Instagram</label>
+        <input type="" name="Instagram" id="Instagram" placeholder="Digite o link do seu Instagram">
+        <br>
+        <br>
+        <label for="github">GitHub</label>
+        <input type="" name="GitHub" id="GitHub" placeholder="Digite  o link do seu GitHub">
+    </fieldset>
+    <fieldset>
+        <legend>Dados de Endereço</legend>
+        <p>Cidade : </p>
+        <select name="Cidade" >
+        
+         <option value="">Selecione</option>
+         <option value="Bnu"> Blumenau</option>
+         <option value="Peruibe">Peruibe</option>
+         <option value="Uberaba">uberaba</option>
+        </select>
+        <br>
+        
+        <p>Estado : </p>
+        <select name="Estado" >
+            <option value="">Selecione</option>
+            <option value="SC">Santa Catariana</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+        <br>
+        
+        <p>Bairro</p>
+        <select name="Bairro">
+            <option value="">Selecione</option>
+            <option value="Gloria">Gloria</option>
+            <option value="Caraguava">Caraguava</option>
+            <option value="Jardim">Jardim</option>
+        </select>
+        <br>
+        
+        <p>Complemento : </p>
+        <select name="Complemento">
+            <option value="">Selecione</option>
+            <option value="Casa">Casa</option>
+            <option value="Apartamento"> Apartamento</option>
+        </select>
+        <br>
+        <br>
+        <label for="Numero">Numero do endereço</label>
+        <input type="numero" name="numero">
+    </fieldset>
+    <fieldset>
+        <legend>Experiência profisionais</legend>
+        <label for="empresa">Empresa</label>
+        <input type="text" name="enpresa" placeholder="Digite a empresa que trabalhou">
+        <br>
+        <br>
+        <label for="Cidade">Cidade</label>
+        <input type="text" name="Cidade"  placeholder="Digite a cidade onde você trabalhou">
+        <br>
+        <br>
+        <label for="estado">Estado</label>
+        <input type="text" name="estado" placeholder="Digite a cidade que você trabalhou">
+        <br>
+        <br>
+       <label for="">Admissão</label>
+       <input type="date" name="Admissão">
+       <br>
+       <br>
+       <label for="">Demissão</label>
+       <input type="date" name="Demissão">
+       <br>
+       <br>
+       <label for="">Salario</label>
+       <input type="number" name="Salario" placeholder="Digite seu ultimo Salario">
+       <br>
+       <br>
+       <input type="submit" value="Adicionar mais itens">  
+    </fieldset>
+    <fieldset>
+        <legend>Cursos</legend>
+        <label for="">Curso</label>
+        <input type="text" name="Curso" placeholder="Digite o nome do seu curso">
+        <br>
+        <br>
+        <label for="">Instituição</label>
+        <input type="text" name="Instituição" placeholder="Digite a instituição do seu curso">
+        <br>
+        <br>
+        <label for="">Data inicio</label>
+        <input type="date" name="Data inicio" >
+       <br>
+       <br>
+       <label for="">Data final</label>
+       <input type="date" name="data final">
+       <br>
+       <br>
+       <label for="">Envie seu arquivo do seu certificado</label>
+       <input type="file" name="arquivo">
+       <br>
+    </fieldset>
+    <fieldset>
+        <legend>Formação</legend>
+       <label for="">Nome Curso </label>
+       <input type="text" name="Curso" placeholder="Digite o nome do seu curso">
+       <br>
+       <p>Situacao do Curso : </p>
+      <select name="Situação" >
+        <option value="">seleciona</option>
+        <option value="Cursando">Cursando</option>
+        <option value="Concluida">Concluida</option>
+        <option value="Trancado">Trancado</option>
+      </select>
+      <br>
+      <br>
+      <label for="">Data Inicio</label>
+       <input type="date" name="data de Inicio">
+       <br>
+       <br>
+       <label for="">Data final</label>
+       <input type="date" name="data final">
+       <br>
+       <br>
+       <label for="">Envie seu arquivo de certificado</label>
+       <input type="file" name="arquivo">
+       <br>
+       <input type="submit" value="Adicionar mais itens">  
+    </fieldset>
+     
+</body>
+
+</html>
